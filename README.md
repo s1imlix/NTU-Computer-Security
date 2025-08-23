@@ -17,7 +17,8 @@
 
 #### Note for Week 1
 Due to certain changes in Linux kernel (see writeup at week1/exp/casino.md) 
-Running the containers on kernel v5.4 is preferred or the exploits won't work due to .bss not executable.
+Running the containers on kernel v5.4 is preferred or the exploits won't work due to .bss not executable. 
+- `setup.sh` is provided to quickly setup a VM of Ubuntu 18.04 with dependencies, run with sudo.
 
 ### Week 2: Binary Exploitation
 
