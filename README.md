@@ -1,5 +1,5 @@
-# NTU Computer Security Fall 2019 - 台大 計算機安全
-擔任台大大助教，與三週 Pwn 課程講師。
+# NTU Computer Security Fall 2019 - 台大 計算機安全 (Self practice)
+
 
 ## 課程內容
 ### Week 1: Binary Exploitation - Basic
@@ -14,6 +14,10 @@
 - Homework:
     - [Casino](week1/exp/casino.py)
         - oob array access, GOT hijacking, shellcode
+
+#### Note for Week 1
+Due to certain changes in Linux kernel (see writeup at week1/exp/casino.md) 
+Running the containers on kernel v5.4 is preferred or the exploits won't work due to .bss not executable.
 
 ### Week 2: Binary Exploitation
 
